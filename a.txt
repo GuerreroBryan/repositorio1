@@ -1,0 +1,18 @@
+var 1 = 5
+
+def f1():
+    var1=42
+
+def f2():
+    print var1
+
+f1()
+f2()
+
+
+#####
+def f1():
+    global var1
+    var1=42
+
+f2()
