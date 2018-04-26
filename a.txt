@@ -16,3 +16,5 @@ def f1():
     var1=42
 
 f2()
+f1()
+#No hay ningun dato mas
